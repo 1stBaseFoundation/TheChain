@@ -15,11 +15,11 @@ A compact, self-contained node distribution containing the first binaries for th
 
 Windows/Linux
 
-| **Operating System** | Windows 10 / 11 (64-bit) | Ubuntu 18.04+, CentOS 7+, Debian 9+ (64-bit) |
-| **CPU** | Dual-core (2.0 GHz or faster) 
-| **RAM** | 2 GB available memory 
-| **Storage** | 500 MB available disk space 
-| **Browser** | Chrome 60+, Firefox 55+, Edge 79+, Safari 12+ 
+- **Operating System** | Windows 8/ 10 / 11 (64-bit) | Ubuntu 18.04+, CentOS 7+, Debian 9+ (64-bit) |
+- **CPU** | Dual-core (2.0 GHz or faster) 
+- **RAM** | 2 GB available memory 
+- **Storage** | 500 MB available disk space 
+- **Browser** | Chrome 60+, Firefox 55+, Edge 79+, Safari 12+ 
 
 ### Recommended
 - **CPU:** Quad-core (2.4 GHz or faster)
@@ -49,3 +49,4 @@ Windows/Linux
 2. (Linux) Make executable if necessary: `chmod +x <binary>`
 
 ---
+
