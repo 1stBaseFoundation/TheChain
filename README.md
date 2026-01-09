@@ -7,7 +7,7 @@ A compact, self-contained node distribution containing the first binaries for th
 
 ## Quick Start 
 1. Download the binary for your OS extract and run **1stbase**.
-2. Linux troubleshoot permissions: file ~ `chmod +x <1stbase>`, directory ~ `chmod -R 755 1stBase_Linux_v1.x.x`
+2. Linux troubleshoot permissions: file ~ `chmod +x 1stbase`, directory ~ `chmod -R 755 1stBase_Linux_v1.x.x`
 
 ---
 
@@ -42,6 +42,7 @@ Windows/Linux
 - **Self-contained executable:** No Node.js runtime installation required.
 - **No external dependencies:** All necessary libraries are bundled with the application.
 - **Cross-platform:** Binaries are provided for Windows and Linux (64-bit).
+
 
 
 
