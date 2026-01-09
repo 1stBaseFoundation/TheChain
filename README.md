@@ -16,17 +16,17 @@ A compact, self-contained node distribution containing the first binaries for th
 ### Minimum 
 Windows/Linux
 
-- **Operating System** | Windows 8/ 10 / 11 (64-bit) | Ubuntu 18.04+, CentOS 7+, Debian 9+ (64-bit) |
-- **CPU** | Dual-core (2.0 GHz or faster) 
-- **RAM** | 2 GB available memory 
-- **Storage** | 2 GB available disk space 
-- **Browser** | Chrome 60+, Firefox 55+, Edge 79+, Safari 12+ 
+- **Operating System** : Windows 8/ 10 / 11 (64-bit) | Ubuntu 18.04+, CentOS 7+, Debian 9+ (64-bit) |
+- **CPU** : Dual-core (2.0 GHz or faster) 
+- **RAM** : 2 GB available memory 
+- **Storage** : 2 GB available disk space 
+- **Browser** : Chrome , Firefox , Edge 
 
 ### Recommended
 - **CPU:** Quad-core (2.4 GHz or faster)
 - **RAM:** 4 GB available memory
 - **Storage:** 10 GB available disk space
-- **Browser:** Latest Chrome, Firefox, or Edge
+- **Browser:** Latest Chrome, Firefox, Edge
 
 ---
 
@@ -42,6 +42,7 @@ Windows/Linux
 - **Self-contained executable:** No Node.js runtime installation required.
 - **No external dependencies:** All necessary libraries are bundled with the application.
 - **Cross-platform:** Binaries are provided for Windows and Linux (64-bit).
+
 
 
 
