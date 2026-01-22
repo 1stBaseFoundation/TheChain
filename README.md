@@ -32,7 +32,7 @@ Windows/Linux
 
 ## Network Requirements 🌐
 - **Internet connection:** Required for initial download and updates.
-- **Port access:** Peer-to-Peer ~ 4003 & 4002
+- **Port access:** Peer-to-Peer ~ 4003~4001
 
 > ⚠️ App automatically requests firewall permission on Windows, Linux may require custom rules.
 
@@ -42,6 +42,7 @@ Windows/Linux
 - **Self-contained executable:** No Node.js runtime installation required.
 - **No external dependencies:** All necessary libraries are bundled with the application.
 - **Cross-platform:** Binaries are provided for Windows and Linux (64-bit).
+
 
 
 
