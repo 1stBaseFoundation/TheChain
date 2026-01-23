@@ -36,14 +36,38 @@ Windows/Linux
 
 > ⚠️ App automatically requests firewall permission on Windows, Linux may require custom rules.
 
----
+
 
 ## Additional Notes 💡
 - **Self-contained executable:** No Node.js runtime installation required.
 - **No external dependencies:** All necessary libraries are bundled with the application.
 - **Cross-platform:** Binaries are provided for Windows and Linux (64-bit).
 
+---
 
+## Explorer API - Port 3003 🔍
+Dedicated service for blockchain exploration and data indexing.
+
+### Network Statistics
+- `GET /api/explorer/stats/overview` - Get network overview statistics
+
+### Blocks
+- `GET /api/explorer/blocks` - Get recent blocks
+- `GET /api/explorer/blocks/latest` - Get the latest block
+- `GET /api/explorer/blocks/:blockHash` - Get details for a specific block
+- `GET /api/explorer/blocks/:blockHash/transactions` - Get transactions for a specific block
+
+### Transactions
+- `GET /api/explorer/transactions` - Get recent transactions
+- `GET /api/explorer/transactions/latest` - Get the latest transactions
+- `GET /api/explorer/transactions/:txid` - Get details for a specific transaction
+
+### Addresses
+- `GET /api/explorer/addresses/:address/transactions` - Get transaction history for an address
+- `GET /api/explorer/addresses/:address/aggregates` - Get aggregated data for an address
+- `GET /api/explorer/addresses/:address/utxos` - Get unspent transaction outputs for an address
+
+---
 
 
 
