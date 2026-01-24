@@ -63,11 +63,13 @@ Dedicated service for blockchain exploration and data indexing.
 - `GET /api/explorer/transactions/:txid` - Get details for a specific transaction
 
 ### Addresses
-- `GET /api/explorer/addresses/:address/transactions` - Get transaction history for an address
+- `GET /api/explorer/addresses/:address/transactions` - Get recent transaction history for an address
+- `GET /api/explorer/addresses/:address/transactions/?page=XX` - Get transaction history for an address in pages of 10~11
 - `GET /api/explorer/addresses/:address/aggregates` - Get aggregated data for an address
 - `GET /api/explorer/addresses/:address/utxos` - Get unspent transaction outputs for an address
 
 ---
+
 
 
 
