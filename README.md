@@ -64,7 +64,7 @@ Dedicated service for blockchain exploration and data indexing.
 
 ### Addresses
 - `GET /api/explorer/addresses/:address/transactions` - Get recent transaction history for an address
-- `GET /api/explorer/addresses/:address/transactions/?page=XX&size=25` - Get transaction history for an address in pages, 500 max per page
+- `GET /api/explorer/addresses/:address/transactions/?page=XX&size=XX&exclude=inputs,outputs` - Get transaction history for an address in pages, 500 max per page
 - `GET /api/explorer/addresses/:address/aggregates` - Get aggregated data for an address
 - `GET /api/explorer/addresses/:address/utxos` - Get unspent transaction outputs for an address
 
