@@ -18,13 +18,13 @@ Windows/Linux
 
 - **Operating System** : Windows 8/ 10 / 11 (64-bit) | Ubuntu 18.04+, CentOS 7+, Debian 9+ (64-bit) |
 - **CPU** : Dual-core (2.0 GHz or faster) 
-- **RAM** : 2 GB available memory 
+- **RAM** : 1 GB available memory 
 - **Storage** : 2 GB available disk space 
 - **Browser** : Chrome , Firefox , Edge 
 
 ### Recommended
 - **CPU:** Quad-core (2.4 GHz or faster)
-- **RAM:** 4 GB available memory
+- **RAM:** 2 GB available memory
 - **Storage:** 10 GB available disk space
 - **Browser:** Latest Chrome, Firefox, Edge
 
