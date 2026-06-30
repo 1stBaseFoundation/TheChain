@@ -71,7 +71,7 @@ Dedicated service for blockchain exploration and data indexing.
 ---
 
 
-
+Copyright © 2026 1stBase (PTY) LTD. All rights reserved.This repository contains proprietary software and confidential intellectual property belonging strictly to 1stBase (PTY) LTD.No Distribution: Unauthorized copying, modification, or distribution of any file in this repository via any medium is strictly prohibited.No Use: Use of this source code, in whole or in part, is permitted only for authorized internal purposes by explicit written consent from 1stBase (PTY) LTD.Strict Confidentiality: This code remains a trade secret. Any unauthorized access, leak, or reverse-engineering will result in immediate legal action.
 
 
 
