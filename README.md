@@ -68,10 +68,19 @@ Dedicated service for blockchain exploration and data indexing.
 - `GET /api/explorer/addresses/:address/aggregates` - Get aggregated data for an address
 - `GET /api/explorer/addresses/:address/utxos` - Get unspent transaction outputs for an address
 
----
+________________________________________________________________________________________________________________________________________________________________________________________________________
 
+Copyright © 2026 1stBase (PTY) LTD. All rights reserved, except where third-party open-source components are licensed under their respective licenses.
 
-Copyright © 2026 1stBase (PTY) LTD. All rights reserved.This repository contains proprietary software and confidential intellectual property belonging strictly to 1stBase (PTY) LTD.No Distribution: Unauthorized copying, modification, or distribution of any file in this repository via any medium is strictly prohibited.No Use: Use of this source code, in whole or in part, is permitted only for authorized internal purposes by explicit written consent from 1stBase (PTY) LTD.Strict Confidentiality: This code remains a trade secret. Any unauthorized access, leak, or reverse-engineering will result in immediate legal action.
+This repository contains proprietary, closed-source software and confidential intellectual property belonging to 1stBase (PTY) LTD, including proprietary black-box software, blockchain logic, smart-contract logic, on-chain application logic, custom artwork, logos, and documentation.
+
+Unauthorized copying, modification, distribution, deployment, reverse engineering, or commercial use of the Company’s proprietary components is strictly prohibited without prior written consent.
+
+Third-party open-source dependencies included in this repository remain subject to their respective licenses. See THIRD_PARTY_NOTICES.md and the applicable LICENSE files. Nothing in this notice limits rights granted under those third-party licenses.
+
+The 1stBase name, logos, and custom artwork are proprietary and may be protected by copyright, trademark, passing-off/unfair-competition, and other applicable laws. No license is granted to use them.
+
+Governed by the laws of South Africa.
 
 
 
