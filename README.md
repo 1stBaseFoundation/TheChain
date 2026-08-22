@@ -32,41 +32,45 @@ Windows/Linux
 
 ## Network Requirements 🌐
 - **Internet connection:** Required for initial download and updates.
-- **Port access:** Peer-to-Peer ~ 4003~4001
+- **Required Host Ports:** 
 
-> ⚠️ App automatically requests firewall permission on Windows, Linux may require custom rules.
-
-
+  + Peer-to-Peer: 4003~4001
+  + Frontend: 3000
+  + Backend: 3001~3005
 
 ## Additional Notes 💡
+
 - **Self-contained executable:** No Node.js runtime installation required.
 - **No external dependencies:** All necessary libraries are bundled with the application.
 - **Cross-platform:** Binaries are provided for Windows and Linux (64-bit).
 
 ---
 
-## Explorer API - Port 3003 🔍
-Dedicated service for blockchain exploration and data indexing.
+## API 🔍
+Collection of useful API endpoints for developers. 
+
+Public service at `node.1stbase.org` ommits the ports for queries, e.g `node.1stbase.org/api/explorer/stats/circulatingSupply`
 
 ### Network Statistics
-- `GET /api/explorer/stats/overview` - Get network overview statistics
+- `GET localhost:3000/api/explorer/stats/overview` - Get network overview statistics
+- `GET localhost:3001/api/explorer/stats/circulatingSupply` - Get circulating supply (Non-satoshi decimal value)
 
 ### Blocks
-- `GET /api/explorer/blocks` - Get recent blocks
-- `GET /api/explorer/blocks/latest` - Get the latest block
-- `GET /api/explorer/blocks/:blockHash` - Get details for a specific block
-- `GET /api/explorer/blocks/:blockHash/transactions` - Get transactions for a specific block
+- `GET localhost:3000/api/explorer/blocks` - Get recent blocks
+- `GET localhost:3000/api/explorer/blocks/latest` - Get the latest block
+- `GET localhost:3000/api/explorer/blocks/:blockHash` - Get details for a specific block
+- `GET localhost:3000/api/explorer/blocks/:blockHash/transactions` - Get transactions for a specific block
 
 ### Transactions
-- `GET /api/explorer/transactions` - Get recent transactions
-- `GET /api/explorer/transactions/latest` - Get the latest transactions
-- `GET /api/explorer/transactions/:txid` - Get details for a specific transaction
+- `GET localhost:3000/api/explorer/transactions` - Get recent transactions
+- `GET localhost:3000/api/explorer/transactions/latest` - Get the latest transactions
+- `GET localhost:3000/api/explorer/transactions/:txid` - Get details for a specific transaction
 
 ### Addresses
-- `GET /api/explorer/addresses/:address/transactions` - Get recent transaction history for an address
-- `GET /api/explorer/addresses/:address/transactions/?page=XX&size=XX&exclude=inputs,outputs` - Get transaction history for an address in pages, 500 max per page
-- `GET /api/explorer/addresses/:address/aggregates` - Get aggregated data for an address
-- `GET /api/explorer/addresses/:address/utxos` - Get unspent transaction outputs for an address
+- `GET localhost:3000/api/explorer/addresses/:address/transactions` - Get recent transaction history for an address
+- `GET localhost:3000/api/explorer/addresses/:address/transactions/?page=XX&size=XX&exclude=inputs,outputs` - Get transaction history for an address in pages, 500 max per page, optional to exclude UTXOs for smaller payload.
+- `GET localhost:3000/api/explorer/addresses/:address/aggregates` - Get aggregated data for an address
+- `GET localhost:3000/api/explorer/addresses/:address/utxos` - Get unspent transaction outputs for an address
 
 ________________________________________________________________________________________________________________________________________________________________________________________________________
 
