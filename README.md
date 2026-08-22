@@ -49,7 +49,10 @@ Windows/Linux
 ## API 🔍
 Collection of useful API endpoints for developers. 
 
-Public service at `node.1stbase.org` ommits the ports for queries, e.g `node.1stbase.org/api/explorer/stats/circulatingSupply`
+### Public Explorer 
+
+- When using `node.1stbase.org` ommit the ports for queries, e.g `node.1stbase.org/api/explorer/stats/circulatingSupply`
+- `node.1stbase.org/explorer/transactions/txid` - GUI link for transactions (Instead of raw JSON)
 
 ### Network Statistics
 - `GET localhost:3000/api/explorer/stats/overview` - Get network overview statistics
@@ -65,6 +68,8 @@ Public service at `node.1stbase.org` ommits the ports for queries, e.g `node.1st
 - `GET localhost:3000/api/explorer/transactions` - Get recent transactions
 - `GET localhost:3000/api/explorer/transactions/latest` - Get the latest transactions
 - `GET localhost:3000/api/explorer/transactions/:txid` - Get details for a specific transaction
+
+
 
 ### Addresses
 - `GET localhost:3000/api/explorer/addresses/:address/transactions` - Get recent transaction history for an address
