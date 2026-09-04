@@ -19,14 +19,14 @@ Windows/Linux
 - **Operating System** : Windows 8/ 10 / 11 (64-bit) | Ubuntu 18.04+, CentOS 7+, Debian 9+ (64-bit) |
 - **CPU** : Dual-core (2.0 GHz or faster) 
 - **RAM** : 1 GB available memory 
-- **Storage** : 2 GB available disk space 
+- **Storage** : 4 GB available disk space 
 - **Browser** : Chrome , Firefox , Edge 
 
-### Recommended
-- **CPU:** Quad-core (2.4 GHz or faster)
+Android
+
+- **CPU:** ARM64
 - **RAM:** 2 GB available memory
-- **Storage:** 10 GB available disk space
-- **Browser:** Latest Chrome, Firefox, Edge
+- **Storage:** 4 GB available disk space
 
 ---
 
@@ -34,9 +34,8 @@ Windows/Linux
 - **Internet connection:** Required for initial download and updates.
 - **Required Host Ports:** 
 
-  + Peer-to-Peer: 4003~4001
-  + Frontend: 3000
-  + Backend: 3001~3005
+  Peer-to-Peer: 4003~4001
+  API: 3000~3003
 
 ## Additional Notes 💡
 
