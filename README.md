@@ -34,8 +34,8 @@ Android
 - **Internet connection:** Required for initial download and updates.
 - **Required Host Ports:** 
 
-  Peer-to-Peer: 4003~4001
-  API: 3000~3003
+  Peer-to-Peer: 4003-4001
+  API: 3000-3003
 
 ## Additional Notes 💡
 
