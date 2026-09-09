@@ -56,6 +56,7 @@ Collection of useful API endpoints for developers.
 ### Network Statistics
 - `GET localhost:3000/api/explorer/stats/overview` - Get network overview statistics
 - `GET localhost:3001/api/explorer/stats/circulatingSupply` - Get circulating supply (Non-satoshi decimal value)
+- `GET localhost:3001/api/network/hashrate-history` - Json object and cache logging active miners and their hashrate
 
 ### Blocks
 - `GET localhost:3000/api/explorer/blocks` - Get recent blocks
