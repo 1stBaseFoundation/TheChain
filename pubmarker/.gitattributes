@@ -1,0 +1,6 @@
+# The mirror is the payload. Never translate line endings, or the
+# reflection distorts: these files are measured in bytes, not lines.
+* -text
+
+# The tooling that keeps the mirror honest is not part of the mirror.
+tools/** linguist-vendored
